@@ -1,15 +1,12 @@
 body {
 	background-color: navy;
 }
-h1	{
-	background-color:silver;
-	color:green;
-	font-family:arial; 
-}
-h2 {
-	color:teal;
-} 
 
-p {
+h1, p {
 	color: silver;
+}
+
+h2 {
+	color: teal;
+	background-color: black;
 }
