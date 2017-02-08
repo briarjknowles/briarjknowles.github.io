@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,700);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:700);
+@import url('https://fonts.googleapis.com/css?family=Philosopher:700i');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'Cabin', 'Arial', sans-serif;
+	background-color: #FFF3B4;
+	font-size: 18px;
+}
+
+header {
+	background-color: #FFFFFF;
+}
+
+h1 {
+	font-family: 'Libre Baskerville', 'Baskerville', serif;
+	font-size: 3em;
+	text-align: left;
+	padding-left: 0.5em;
+	color: #152610;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Philosopher', 'Arial', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	text-align: left;
+	padding-left: 1em;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+nav {
+	font-size: 1.1em;
+	font-weight: 700;
+	margin: auto;
+}
+
+h3 {
+	font-family: 'Libre Baskerville';
+	font-size: 1em;
+	padding-left: 1em;
+	padding-top: 1em;
+}
+
+section {
+	background-color: #FFF;
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.navlinks {
+	margin-right: 0.5em;
+	padding: 1em 0.6em;
+	float: right;
+}
+
+#actionbutton {
+	margin: 1em;
+	padding: 0.5em;
+}
+
+#headerhr {
+	border: none;
+	height: 3px;
+	background-color: #2B1E14;
+	width: auto;
+}
+
+#ladyslipperyellow {
+	width: 50%;
+	display: block;
+	margin-top: 20px;
+	margin-left: 225px;
+	padding: 5px;
+	border: 10px solid #2B1E14;
+	background-color: #FFFFFF;
+}
+
+#profilepicture {
+	width: 18%;
+	display: block;
+	padding: 1em;
+}
+
+#copyright {
+	padding: 1em;
+}
