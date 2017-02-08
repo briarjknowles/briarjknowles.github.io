@@ -15,7 +15,9 @@ body {
 }
 
 header {
-	background-color: #FFFFFF;
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
 }
 
 h1 {
@@ -38,9 +40,12 @@ h2 {
 }
 
 nav {
+	background-color: #E8C66A;
+	margin: auto;
+	border: 1px black solid;
+    padding: 20px;
 	font-size: 1.1em;
 	font-weight: 700;
-	margin: auto;
 }
 
 h3 {
@@ -50,13 +55,10 @@ h3 {
 	padding-top: 1em;
 }
 
-section {
-	background-color: #FFF;
-}
-
 p {
 	text-align: center;
 	font-size: 18px;
+	max-width: 75ch;
 }
 
 a {
@@ -65,10 +67,30 @@ a {
 	color: black;
 }
 
+footer {
+	background-color:  #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+
 .navlinks {
+	background-color: #E8C66A;
 	margin-right: 0.5em;
 	padding: 1em 0.6em;
 	float: right;
+}
+
+.biography {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+}
+}
+
+.news {
+	background-color: #FFC675;
+	border: 1px black solid;
+    padding: 20px;
 }
 
 #actionbutton {
@@ -95,6 +117,12 @@ a {
 
 #profilepicture {
 	width: 18%;
+	display: block;
+	padding: 1em;
+}
+
+#january2017work {
+	width: 50%;
 	display: block;
 	padding: 1em;
 }
