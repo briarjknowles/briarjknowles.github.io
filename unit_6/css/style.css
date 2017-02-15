@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,700);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:700);
+@import url('https://fonts.googleapis.com/css?family=Philosopher:700i');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'Cabin', 'Arial', sans-serif;
+	background-color: #FFF3B4;
+	font-size: 18px;
+}
+
+header {
+	background-color: #FFF;
+    padding: 20px;
+}
+
+h1 {
+	font-family: 'Libre Baskerville', 'Baskerville', serif;
+	font-size: 3em;
+	text-align: left;
+	padding-left: 0.5em;
+	color: #152610;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Philosopher', 'Arial', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	font-style: italic;
+	text-align: left;
+	padding-left: 1em;
+	padding-top: .5em;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-family: 'Libre Baskerville';
+	display: block;
+	text-align: center;
+	font-size: 1em;
+	padding: 1em;
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
+	max-width: 75ch;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+    padding: 20px;
+}
+
+li {
+	list-style-type: none;
+	padding: 1em;
+}
+
+#left {
+	width: 50%;
+	display: block;
+	float: left;
+	margin-top: 3em;
+	margin-left: 10em;
+	padding: .3em;
+	border: .6em solid #2B1E14;
+	background-color: #FFFFFF;
+}
+
+#right {
+	font-size: 1.1em;
+	display: block;
+	width: 25%;
+	height: 460px;
+	font-weight: 700;
+	padding: 1em 0.6em;
+	margin-right: 5em;
+	margin-top: 4em;
+	float: right;
+	text-align: center;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.biography {
+	background-color: olive;
+    padding: 20px;
+}
+
+.newsbox {
+	display: block;
+}
+
+#news {
+	background-color: #FFF;
+    padding: 20px;
+    float: right;
+    height: 700px;
+    width: 25%;
+    display: block;
+    margin-right: 5em;
+    margin-top: 10em;
+    border: .2em solid #000;
+}
+
+#actionbutton {
+	clear: both;
+	display: block;
+	margin-left: 12.9em;
+	padding: 2em;
+}
+
+#headerhr {
+	border: none;
+	height: 2px;
+	background-color: #2B1E14;
+	width: auto;
+}
+
+#profilepicture {
+	width: 18%;
+	display: block;
+	padding: 1em;
+}
+
+#january2017work {
+	width: 100%;
+	display: block;
+	transform: rotate(90deg);
+	padding: 3em;
+}
+
+#copyright {
+	padding: 1em;
+}
